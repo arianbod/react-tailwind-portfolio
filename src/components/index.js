@@ -1,4 +1,4 @@
 import Hero from "./Hero";
 import Navbar from "./Navbar";
-
-export { Navbar, Hero }
+import Skills from "./Skills";
+export { Navbar, Hero, Skills }
