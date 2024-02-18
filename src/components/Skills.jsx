@@ -7,15 +7,17 @@ const Skills = () => {
 		<section
 			className='py-20 align-element'
 			id='skills'>
-			<SectionTitle />
-			{skills.map((skillItem) => {
-				return (
-					<SkillsCard
-						key={skillItem.id}
-						{...skillItem}
-					/>
-				);
-			})}
+			<SectionTitle text='Tech Stack' />
+			<div className='align-sections py-16 grid gap-8 md:grid-cols-2 lg:grid-cols-3'>
+				{skills.map((skillItem) => {
+					return (
+						<SkillsCard
+							key={skillItem.id}
+							{...skillItem}
+						/>
+					);
+				})}
+			</div>
 		</section>
 	);
 };
