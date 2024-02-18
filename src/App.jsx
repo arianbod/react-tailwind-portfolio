@@ -1,7 +1,12 @@
 import React from 'react';
+import { Navbar, Hero } from './components';
 
 const App = () => {
-	return <h1 className='text-6xl font-bold underline'>Tailwind Portfolio</h1>;
+	return (
+		<main>
+			<Navbar />
+			<Hero />
+		</main>
+	);
 };
-
 export default App;
