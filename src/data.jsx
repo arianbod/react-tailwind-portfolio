@@ -32,8 +32,7 @@ export const skills = [
 export const projects = [
 	{
 		id: nanoid(),
-		image:
-			'https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800',
+		img: 'https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800',
 		url: 'https://react-projects.netlify.app/',
 		git: 'https://github.com/john-smilga',
 		title: 'first project',
@@ -41,8 +40,7 @@ export const projects = [
 	},
 	{
 		id: nanoid(),
-		image:
-			'https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800',
+		img: 'https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800',
 		url: 'https://react-projects.netlify.app/',
 		git: 'https://github.com/john-smilga',
 		title: 'second project',
@@ -50,8 +48,7 @@ export const projects = [
 	},
 	{
 		id: nanoid(),
-		image:
-			'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
+		img: 'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
 		url: 'https://react-projects.netlify.app/',
 		git: 'https://github.com/john-smilga',
 		title: 'third project',
